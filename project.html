@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.1/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./pr_style/style.css">
+    <link rel="shortcut icon" href="./img/author.png" type="image">
+    <title>Gallery</title>
+</head>
+<body>
+  <script src="./bootstrap-5.2.1/dist/js/bootstrap.js"></script>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <img class="img-nav" src="./img/gal_icon.png" alt="">
+      <a target="_blank" class="navbar-brand" href="/project.html">My Gallery</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a target="_blank" class="nav-link active" aria-current="page" href="/project.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a target="_blank" class="nav-link" href="https://upload.wikimedia.org/wikipedia/commons/2/28/Kop_van_een_skelet_met_brandende_sigaret_-_s0083V1962_-_Van_Gogh_Museum.jpg?uselang=ru">Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a target="_blank" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Exhibitions
+              </a>
+              <ul class="dropdown-menu">
+                <li><a target="_blank" class="dropdown-item" href="./pages/landscapes.html">Landscapes</a></li>
+                <li><a target="_blank" class="dropdown-item" href="./pages/portraits.html">Portraits</a></li>
+                <li><a target="_blank" href="./pages/myth.html" class="dropdown-item">Mythological pictures</a></li>
+                <li><a target="_blank" href="./pages/modernism.html" class="dropdown-item">Modernism</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a target="_blank" class="dropdown-item" href="https://en.wikipedia.org/wiki/Art">Wiki page</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+    
+  <div class="header-section">
+    <header>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>              
+      <div class="heading">
+        <ul>
+          <li><a target="_blank" class="name-page" href="#">Home</a></li>
+        </ul>
+        <div class="heading-text">
+          <img class="icon" src="./img/author.png" height="30px" width="30px" alt="icon">
+          <h2>My internet gallery</h2>
+          <a href="#pictures">
+            <button class="btn btn-outline-info">Pictures!</button>
+          </a>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <section class="definition">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col definition_photo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/MoMa_NY_USA_1.jpg/450px-MoMa_NY_USA_1.jpg?20070103190721" alt="the photo of style" class="defenition_img">
+            </div>
+            <div class="col definition_content">
+                <div class="definition_text"><strong>Art</strong> 
+                  <p>
+                    is a diverse range of human activity, and resulting product, that involves creative or imaginative talent expressive of technical proficiency, beauty, emotional power, or conceptual ideas.
+                  There is no generally agreed definition of what constitutes art,
+                   and its interpretation has varied greatly throughout history 
+                  and across cultures. The three classical branches of visual art are painting,
+                   sculpture, and architecture. Theatre, dance, and other performing arts, as 
+                   well as literature, music, film and other media such as interactive media, are
+                    included in a broader definition of the arts. Until the 17th century, art 
+                    referred to any skill or mastery and was not differentiated from crafts or sciences. 
+                    In modern usage after the 17th century, where aesthetic considerations are paramount, 
+                    the fine arts are separated and distinguished from acquired skills in general, such as 
+                    the decorative or applied arts.
+                  </p>
+                  <p>
+                    The nature of art and related concepts, such as creativity and interpretation, are explored in a 
+                    branch of philosophy known as aesthetics.
+                    The resulting artworks are studied in the professional fields of art criticism and the history of art. 
+                  </p>
+                  </div>
+                <div class="definition_founder">From Wikipedia, the free encyclopedia</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <section class="cards1" id="pictures">
+    <div class="container text-left">
+      <h2 class="genres-heading">Available exhibitions:</h2>
+    </div>
+    <div class="container inner-gallery">
+      <div class="cards-photo row row-cols-1 row-cols-md-2">
+        <a target="_blank" href="./pages/myth.html">
+          <div class="col">
+          <div class="card text-bg-dark">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Vasnetsov_Sirin_Alkonost.jpg/1920px-Vasnetsov_Sirin_Alkonost.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Mythological artpieces</h5>
+              <p class="card-text">Sirin (right) and Alkonost (left) – Birds of Joy and Sorrow by Viktor Mikhaylovich Vasnetsov</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <a target="_blank" href="./pages/landscapes.html">
+          <div class="col">
+          <div class="card text-bg-dark">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Hovhannes_Aivazovsky_-_The_Ninth_Wave_-_Google_Art_Project.jpg?uselang=ru" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Breathtaking landscapes</h5>
+              <p class="card-text">The Ninth Wave by Ivan Konstantinovich Aivazovsky</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <a target="_blank" href="./pages/modernism.html">
+          <div class="col">
+          <div class="card text-bg-dark">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/68/Picasso_Portrait_of_Daniel-Henry_Kahnweiler_1910.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Modernism</h5>
+              <p class="card-text">Portrait of Daniel-Henry Kahnweiler by Pablo Picasso</p>
+            </div>
+          </div>
+        </div>
+        </a>
+        <a target="_blank" href="./pages/portraits.html">
+          <div class="col">
+          <div class="card text-bg-dark">
+            <img src="https://arthive.net/res/media/img/orig/work/a1d/498430.webp" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Vivid portraits</h5>
+              <p class="card-text">Portrait of Princess Elizabeth</p>
+            </div>
+          </div>
+        </div>     
+        </a>
+      </div>
+    </div>
+  </section>
+
+    <section class="section-galleries">
+        <div class="container head-gallery">
+            <h2>Real existing galleries:</h2>
+        </div>
+        <div class="container galleries">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://www.stairsainty.com/wp-content/uploads/2016/11/Galerie-des-Batailles.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Stair Sainty Gallery</h5>
+                      <p>London</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://d32dm0rphc51dk.cloudfront.net/iQsJbFRC-rh0N1vENuzXJQ/larger.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>De Jonckheere</h5>
+                      <p>Paris</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.timeout.com%2Fimages%2F100471869%2Fimage.jpg&f=1&nofb=1" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>The Louvre Museum</h5>
+                      <p>France, Paris</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+  <footer>
+    <div class="container text-center">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col gal_icon">
+          <h3>My Gallery</h3>
+          <img style="width: 30px;" src="./img/gal_icon.png" alt="">
+        </div>
+        <div class="col">
+          <h3>Conntacts:</h3>
+          <p>Gmail: galleryofmyown@gmail.com</p>
+          <p>Phone: +998 94 540 54 54</p>
+        </div>
+        <div class="col">
+          <h3>Location:</h3>
+          <p>Earth, Eurasia, Central Asia</p>
+          <p>Uzbekistan, Tashkent</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

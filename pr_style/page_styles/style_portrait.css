@@ -1,0 +1,163 @@
+:root{
+    --main-section-head-color: rgb(0, 0, 0);
+}
+body{
+    width: 76%;
+    margin-left: 12%;
+    background-image: url(../../img/portraits/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1.4rem;
+}
+.img-nav{
+    width: 20px;
+    margin-right: 4px;
+}
+.navbar{
+    background-color: rgb(129, 99, 69);
+}
+footer{
+    font-size: 1rem;
+    padding: 0.5%;
+    background-color: rgba(0, 0, 0, 1)
+}
+footer h3{
+    font-size: 1.2rem;
+}
+.heading-text{
+    color: aliceblue;
+}
+.gal_icon{
+    margin-top: 2%;
+}
+.icon{
+    height: 40px;
+    width: 35px;
+}
+.header-section{
+    padding: 2%;
+    background-color: rgba(54, 45, 35, 0.589);
+    height: 800px;
+    width: 100%;
+}
+.img-nav{
+    width: 20px;
+    margin-right: 4px;
+}
+.heading{
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: left;
+    width: 90%;
+    height: 700px;
+    padding: 6% 4%;
+}
+.navbar{
+    background-color: rgb(129, 99, 69);
+}
+footer{
+    font-size: 1rem;
+    padding: 0.5%;
+    background-color: rgba(0, 0, 0, 1)
+}
+footer h3{
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+footer p{
+    color: aliceblue;
+}
+.gal_icon{
+    margin-top: 2%;
+}
+.icon{
+    height: 40px;
+    width: 35px;
+}
+.name-page{
+    font-size: .8rem;
+    border: 5px solid gray;
+    border-radius: 5px;
+    color: rgb(215, 224, 233);
+    background-color: gray;
+}
+.name-page:hover{
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+.head-gallery{
+    margin: 2% 0 4%; 
+}
+
+
+
+.definition{
+    padding: 2%;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .95);
+    color: var(--main-section-head-color);
+}
+.definition-part{
+    background-color: rgba(216, 216, 216, 0.95);
+}
+.definition_photo{
+    width: 50%;
+    position: relative;
+}
+.definition_image{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+
+    transform: translateY(-50%);
+}
+.definition_content{
+    width: 50%;
+    padding-left: 80px;
+}
+.definition_text{
+    margin-bottom: 25px;
+
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+.definition_founder{
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section-head{
+    margin-bottom: 2%;
+}
+.paintings{
+    background-color:rgba(204,153,102, .9);
+    padding: 2%;
+}
+.painting-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offcanvas-bottom{
+    height: 550px !important;
+}
+.offcanvas-start{
+    width: 880px !important;
+}
+.offcanvas-end{
+    width: 860px !important;
+}
+.accordion-body{
+    font-size: 1.1rem;
+}
+.painting-card-1{
+    width: 100% !important;
+}
